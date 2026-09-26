@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Primary Homepage Authority -->
+  <!-- Primary Authority Homepage -->
   <url>
     <loc>https://furnacerepairallentx.us/</loc>
     <lastmod>2026-09-26</lastmod>
@@ -8,12 +8,24 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Core Sub-Services -->
+  <!-- Core Services -->
   <url>
     <loc>https://furnacerepairallentx.us/emergency-furnace-repair/</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/same-day-heating-repair/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/furnace-diagnostics-troubleshooting/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://furnacerepairallentx.us/gas-furnace-repair/</loc>
@@ -25,34 +37,70 @@
     <loc>https://furnacerepairallentx.us/electric-furnace-repair/</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://furnacerepairallentx.us/furnace-diagnostics-troubleshooting/</loc>
+    <loc>https://furnacerepairallentx.us/oil-furnace-repair/</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/pilot-light-igniter-repair/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/furnace-thermostat-repair/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/blower-motor-replacement/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/heat-exchanger-repair/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/circuit-board-electrical-repair/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/furnace-filter-replacement/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://furnacerepairallentx.us/furnace-maintenance/</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://furnacerepairallentx.us/heat-exchanger-blower-motor-repair/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://furnacerepairallentx.us/furnace-installation-replacement/</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/heat-exchanger-blower-motor-repair/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
-  <!-- Key Neighborhood Authority Pages -->
+  <!-- Neighborhood & Location Authority Pages -->
   <url>
     <loc>https://furnacerepairallentx.us/twin-creeks/</loc>
     <lastmod>2026-09-26</lastmod>
@@ -83,8 +131,50 @@
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/cypress-meadows/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/glendover-park/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/suncreek/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/cottonwood-bend/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/west-allen/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/central-allen/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://furnacerepairallentx.us/east-allen/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
 
-  <!-- Core Trust & Contact Pages -->
+  <!-- Trust & Contact Pages -->
   <url>
     <loc>https://furnacerepairallentx.us/about/</loc>
     <lastmod>2026-09-26</lastmod>

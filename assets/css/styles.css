@@ -341,6 +341,22 @@ li {
     z-index: 1050;
   }
 
+  .nav-dropdown-menu-wide {
+    min-width: 580px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.25rem;
+    padding: 0.75rem;
+  }
+
+  .nav-dropdown-menu-areas {
+    min-width: 480px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.25rem;
+    padding: 0.75rem;
+  }
+
   .nav-item-dropdown:hover .nav-dropdown-menu,
   .nav-item-dropdown:focus-within .nav-dropdown-menu {
     opacity: 1;
