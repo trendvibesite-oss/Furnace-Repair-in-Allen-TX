@@ -162,14 +162,42 @@
         <img src="/assets/images/logo.svg" alt="Furnace Repair Allen, TX - Emergency Heating Dispatch" class="logo-img" width="320" height="64">
       </a>
       
-      <nav class="main-nav" aria-label="Primary Navigation">
+                  <nav class="main-nav" aria-label="Primary Navigation">
         <ul class="nav-list">
           <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
-          <li class="nav-item"><a href="/emergency-furnace-repair/" class="nav-link">Emergency Repair</a></li>
-          <li class="nav-item"><a href="/gas-furnace-repair/" class="nav-link">Gas Furnaces</a></li>
-          <li class="nav-item"><a href="/electric-furnace-repair/" class="nav-link">Electric Heating</a></li>
-          <li class="nav-item"><a href="/furnace-diagnostics-troubleshooting/" class="nav-link">Diagnostics</a></li>
-          <li class="nav-item"><a href="/furnace-maintenance/" class="nav-link">Maintenance</a></li>
+          
+          <!-- Services Dropdown Menu -->
+          <li class="nav-item nav-item-dropdown">
+            <a href="/emergency-furnace-repair/" class="nav-link" aria-haspopup="true" aria-expanded="false">
+              <span>Services</span>
+              <span class="nav-dropdown-caret" aria-hidden="true"></span>
+            </a>
+            <ul class="nav-dropdown-menu" aria-label="Services Submenu">
+              <li class="nav-dropdown-item"><a href="/emergency-furnace-repair/" class="nav-dropdown-link">Emergency Furnace Repair <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/gas-furnace-repair/" class="nav-dropdown-link">Gas Furnace Repair <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/electric-furnace-repair/" class="nav-dropdown-link">Electric Furnace Repair <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/furnace-diagnostics-troubleshooting/" class="nav-dropdown-link">Diagnostics &amp; Troubleshooting <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/furnace-maintenance/" class="nav-dropdown-link">Preventative Maintenance <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/heat-exchanger-blower-motor-repair/" class="nav-dropdown-link">Heat Exchanger &amp; Blower Motor <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/furnace-installation-replacement/" class="nav-dropdown-link">Installation &amp; Replacement <span>&rarr;</span></a></li>
+            </ul>
+          </li>
+
+          <!-- Service Areas Dropdown Menu -->
+          <li class="nav-item nav-item-dropdown">
+            <a href="/twin-creeks/" class="nav-link" aria-haspopup="true" aria-expanded="false">
+              <span>Service Areas</span>
+              <span class="nav-dropdown-caret" aria-hidden="true"></span>
+            </a>
+            <ul class="nav-dropdown-menu" aria-label="Service Areas Submenu">
+              <li class="nav-dropdown-item"><a href="/twin-creeks/" class="nav-dropdown-link">Twin Creeks (75013) <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/watters-crossing/" class="nav-dropdown-link">Watters Crossing (75013) <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/star-creek/" class="nav-dropdown-link">Star Creek (75013) <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/montgomery-farm/" class="nav-dropdown-link">Montgomery Farm (75013) <span>&rarr;</span></a></li>
+              <li class="nav-dropdown-item"><a href="/lost-creek-ranch/" class="nav-dropdown-link">Lost Creek Ranch (75002) <span>&rarr;</span></a></li>
+            </ul>
+          </li>
+
           <li class="nav-item"><a href="/about/" class="nav-link">About Us</a></li>
           <li class="nav-item"><a href="/contact/" class="nav-link">Contact</a></li>
         </ul>
@@ -187,19 +215,45 @@
       </button>
     </div>
 
-    <!-- Mobile Navigation Drawer -->
+            <!-- Mobile Navigation Drawer -->
     <div class="mobile-menu" id="mobileMenu">
       <ul class="mobile-nav-list">
-        <li class="mobile-nav-item"><a href="/" class="mobile-nav-link">Home</a></li>
-        <li class="mobile-nav-item"><a href="/emergency-furnace-repair/" class="mobile-nav-link">Emergency Furnace Repair</a></li>
-        <li class="mobile-nav-item"><a href="/gas-furnace-repair/" class="mobile-nav-link">Gas Furnace Repair</a></li>
-        <li class="mobile-nav-item"><a href="/electric-furnace-repair/" class="mobile-nav-link">Electric Furnace Repair</a></li>
-        <li class="mobile-nav-item"><a href="/furnace-diagnostics-troubleshooting/" class="mobile-nav-link">Diagnostics &amp; Troubleshooting</a></li>
-        <li class="mobile-nav-item"><a href="/furnace-maintenance/" class="mobile-nav-link">Preventative Maintenance</a></li>
-        <li class="mobile-nav-item"><a href="/heat-exchanger-blower-motor-repair/" class="mobile-nav-link">Heat Exchangers &amp; Blower Motors</a></li>
-        <li class="mobile-nav-item"><a href="/furnace-installation-replacement/" class="mobile-nav-link">Installation &amp; Replacement</a></li>
-        <li class="mobile-nav-item"><a href="/about/" class="mobile-nav-link">About Referral Service</a></li>
-        <li class="mobile-nav-item"><a href="/contact/" class="mobile-nav-link">Contact &amp; Dispatch</a></li>
+        <li class="mobile-nav-item"><a href="/" class="mobile-nav-link active">Home</a></li>
+        
+        <!-- Mobile Services Submenu -->
+        <li class="mobile-nav-item mobile-dropdown-item">
+          <button type="button" class="mobile-dropdown-btn" aria-expanded="false">
+            <span>Services</span>
+            <span class="mobile-dropdown-icon">+</span>
+          </button>
+          <ul class="mobile-submenu">
+            <li class="mobile-submenu-item"><a href="/emergency-furnace-repair/" class="mobile-submenu-link">Emergency Furnace Repair</a></li>
+            <li class="mobile-submenu-item"><a href="/gas-furnace-repair/" class="mobile-submenu-link">Gas Furnace Repair</a></li>
+            <li class="mobile-submenu-item"><a href="/electric-furnace-repair/" class="mobile-submenu-link">Electric Furnace Repair</a></li>
+            <li class="mobile-submenu-item"><a href="/furnace-diagnostics-troubleshooting/" class="mobile-submenu-link">Diagnostics &amp; Troubleshooting</a></li>
+            <li class="mobile-submenu-item"><a href="/furnace-maintenance/" class="mobile-submenu-link">Preventative Maintenance</a></li>
+            <li class="mobile-submenu-item"><a href="/heat-exchanger-blower-motor-repair/" class="mobile-submenu-link">Heat Exchanger &amp; Blower Motor</a></li>
+            <li class="mobile-submenu-item"><a href="/furnace-installation-replacement/" class="mobile-submenu-link">Installation &amp; Replacement</a></li>
+          </ul>
+        </li>
+
+        <!-- Mobile Service Areas Submenu -->
+        <li class="mobile-nav-item mobile-dropdown-item">
+          <button type="button" class="mobile-dropdown-btn" aria-expanded="false">
+            <span>Service Areas</span>
+            <span class="mobile-dropdown-icon">+</span>
+          </button>
+          <ul class="mobile-submenu">
+            <li class="mobile-submenu-item"><a href="/twin-creeks/" class="mobile-submenu-link">Twin Creeks (75013)</a></li>
+            <li class="mobile-submenu-item"><a href="/watters-crossing/" class="mobile-submenu-link">Watters Crossing (75013)</a></li>
+            <li class="mobile-submenu-item"><a href="/star-creek/" class="mobile-submenu-link">Star Creek (75013)</a></li>
+            <li class="mobile-submenu-item"><a href="/montgomery-farm/" class="mobile-submenu-link">Montgomery Farm (75013)</a></li>
+            <li class="mobile-submenu-item"><a href="/lost-creek-ranch/" class="mobile-submenu-link">Lost Creek Ranch (75002)</a></li>
+          </ul>
+        </li>
+
+        <li class="mobile-nav-item"><a href="/about/" class="mobile-nav-link">About Us</a></li>
+        <li class="mobile-nav-item"><a href="/contact/" class="mobile-nav-link">Contact</a></li>
       </ul>
       <div style="margin-top: 1.25rem;">
         <a href="tel:+18773610428" class="btn btn-primary btn-block" data-cta="Mobile Menu Call">Call Dispatch: +1 (877) 361-0428</a>

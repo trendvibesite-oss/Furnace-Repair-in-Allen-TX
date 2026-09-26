@@ -22,6 +22,20 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileToggle.setAttribute('aria-expanded', 'false');
       }
     });
+
+    // 1b. Mobile Submenu Toggle
+    const mobileDropdownBtns = document.querySelectorAll('.mobile-dropdown-btn');
+    mobileDropdownBtns.forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const parentItem = btn.closest('.mobile-dropdown-item');
+        if (parentItem) {
+          const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', !isExpanded);
+          parentItem.classList.toggle('open');
+        }
+      });
+    });
   }
 
   // 2. Accessible FAQ Accordion
